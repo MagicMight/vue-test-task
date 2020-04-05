@@ -63,6 +63,7 @@ export default {
       this.$emit("remove-note", this.note.id);
     },
 
+    // Отметить задачу выполненной
     completeTask(params) {
       params.note_id = this.note.id;
       this.$emit("complete-task", params);

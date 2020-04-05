@@ -120,7 +120,7 @@ export default {
           this.modalConfig.show = false;
         };
         this.modalConfig = {
-          text: "Вы уверены что хотите удалить заметку?",
+          text: "Вы уверены, что хотите удалить заметку?",
           warning: "Заметка удалится безвозвратно",
           show: true
         };
