@@ -265,7 +265,7 @@ export default {
     min-width: 992px;
     max-width: 1200px;
     grid-template-rows: 5em calc(100% - 5em) 5em;
-    grid-template-columns: calc(100% - min(15%, 120px)) min(15%, 120px);
+    grid-template-columns: calc(100% - 120px) 120px;
     margin: 0 auto;
   }
 
@@ -302,7 +302,7 @@ export default {
     min-width: 992px;
     max-width: 1200px;
     grid-template-rows: 5em calc(100% - 5em) 5em;
-    grid-template-columns: calc(100% - min(15%, 120px)) min(15%, 120px);
+    grid-template-columns: calc(100% - 120px) 120px;
     margin: 0 auto;
   }
   .editor-container .note-panel {

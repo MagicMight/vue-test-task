@@ -179,6 +179,7 @@ button:hover {
   display: block;
   height: 1.4em;
   width: 1.4em;
+  align-self: center;
 }
 .panel i.remove-note-button {
   background: url("/img/cross.jpg");

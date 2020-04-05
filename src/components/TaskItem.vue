@@ -18,6 +18,7 @@
 
     <input
       type="checkbox"
+      class="checkbox"
       v-if="!preview"
       v-model="isComplete"
       @change="completeTask"
@@ -139,7 +140,7 @@ span {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
 }
-input[type="checkbox" i] {
+input.checkbox {
   display: inline-block;
   width: 1.2em;
   height: 1.2em;

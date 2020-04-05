@@ -72,13 +72,14 @@ export default {
   transition: transform 0.5s ease;
   border: none;
   background: url("/img/newtask.png");
-  background-size: 80% 100%;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
   display: block;
   font-size: 1em;
   padding: 0.6em;
-  width: min(15em, 80%);
+  width: 15em;
+  max-width: 80%;
   height: 4em;
   margin: 1em auto;
   transform: rotateZ(0deg);

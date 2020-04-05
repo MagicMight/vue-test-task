@@ -54,7 +54,8 @@ export default {
 .home .note,
 .home .create-new {
   min-width: 200px;
-  width: min(90%, 300px);
+  max-width: 400px;
+  width: 90%;
   margin: 0.75em 1%;
   background-color: #fff;
 }
@@ -76,8 +77,8 @@ export default {
   }
   .home .note,
   .home .create-new {
-    width: 10%;
-    min-width: min(20em, calc(100vw - 2em));
+    width: 300px;
+    min-width: 20em;
     margin: 0.75em 1%;
   }
 }
