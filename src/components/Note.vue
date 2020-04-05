@@ -47,7 +47,6 @@ export default {
 
     // Переименование заметки с возможностью отката изменений
     renameNote(step = "before") {
-      console.log(step);
       if (step === "before") {
         this.$emit("register-state");
       }

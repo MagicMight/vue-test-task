@@ -101,7 +101,6 @@ export default {
 
     // Удаление заметки
     removeNote(id, confirmed = false) {
-      console.log("confirmed", confirmed);
 
       // Если действие было подтверждено
       if (confirmed) {
